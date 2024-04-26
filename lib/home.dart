@@ -1,4 +1,5 @@
 import 'package:coffee_card/coffee_prefs.dart';
+import 'package:coffee_card/input.dart';
 import 'package:coffee_card/styled_body_text.dart';
 import 'package:flutter/material.dart';
 
@@ -31,6 +32,7 @@ class Home extends StatelessWidget {
                 color: Colors.brown[100],
                 padding: const EdgeInsets.all(20),
                 child: const CoffeePrefs()),
+               const UserInputPage(),
             Expanded(
                 child: Image.asset(
               'assets/img/coffee_bg.jpg',
